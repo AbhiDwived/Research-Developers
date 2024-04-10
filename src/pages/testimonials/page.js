@@ -93,6 +93,7 @@ const Testimonial = () => {
               key={index}
               img={content.img}
               heading={content.heading}
+              // description={content.description}
               description={
                 content.description.length > 240
                   ? content.description.substr(0, 240) + "..."

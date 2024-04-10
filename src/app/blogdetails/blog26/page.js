@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import banner1 from "../../../assets/images/banner.jpg";
-import popularBlog from "../../../data/popularBlog.js";
+import popularBlog from "../../data/popularBlog.js";
 import Navbar from "@/pages/header/Navbar";
 import { CheckCircleOutline } from "@mui/icons-material";
 const page = () => {
